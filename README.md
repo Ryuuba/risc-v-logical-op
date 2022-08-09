@@ -44,6 +44,6 @@ else
     c = a || !b;
 ```
 
-4. Compilación de un bloque condicional que verifica que la variable *x* se encuentra dentro de los rangos [-10, 1] o [1, 10], matemáticamente, *x* ∈ [-10, 1] ∪ [1, 10], donde *x* ∈ ℤ. Escribe el código C++ correspondiente y tradúcelo a RISC-V. Modifica el valor de la variable x para que observes el flujo de ejecución del programa.
+4. Compilación de un bloque condicional que asigna a la variable booleana *F* el valor `true` si es que la variable *x* se encuentra dentro de los rangos [-10, -1] o [1, 10], matemáticamente, *x* ∈ [-10, -1] ∪ [1, 10], donde *x* ∈ ℤ. Escribe el código C++ correspondiente y tradúcelo a RISC-V. Modifica el valor de la variable *x* para que observes el flujo de ejecución del programa.
 
-5. Compilación de la ecuación booleana F(*x*, *y*, *z*) = *x* ⊕ *y* ⊕ *z*. Escribe el código C++; después tradúcelo a RISC-V. Comprueba que tu código ensamblador funciona para cualquier combinación de las variables *x*, *y* y *z*.
+5. Compilación de la ecuación booleana *F*(*x*, *y*) = *x* ⊕ *y*. Escribe el código C++ que permite evaluar la función *F* utilizando operadores lógicos; después traduce el código a RISC-V. Comprueba que tu código ensamblador funciona para cualquier combinación de las variables *x* y *y*.
