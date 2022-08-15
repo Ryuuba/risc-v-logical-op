@@ -1,4 +1,4 @@
-# bool x = false, y = false, z = false;
+# bool x = false, y = false;
 # bool F = (!x && y || x && !y);
 # s1 <-> x, s2 <-> y, F <-> s3
         addi s1, zero, 1
